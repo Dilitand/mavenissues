@@ -1,3 +1,10 @@
+#Пример запуска мавена с параметрами
+mvn -U clean install -s settings.xml -Dspring.version=1.0.0
+
+-U - заргрузить заново классы из репозиториев
+-s - указать где лежит файл сеттингс
+-D - присвоить значение переменной ${spring.version}
+
 # mavenissues
 Убираем глюки мавена
 
@@ -17,3 +24,5 @@
         </plugins>
     </pluginManagement>
 </build>
+
+
