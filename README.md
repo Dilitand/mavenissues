@@ -5,6 +5,12 @@ mvn -U clean install -s settings.xml -Dspring.version=1.0.0
 -s - указать где лежит файл сеттингс  
 -D - присвоить значение переменной ${spring.version}  
 
+# Рабочая реализация spring-boot
+https://github.com/Dilitand/mavenissues/blob/main/pom_spring_boot.xml
+собирать так: mvn clean package spring-boot:repackage 
+запускать так: java -jar .\target\SpringForDocker-1.0-SNAPSHOT.jar
+
+
 # mavenissues  
 Убираем глюки мавена  
 
